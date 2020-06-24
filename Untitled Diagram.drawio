@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2020-06-24T15:50:34.458Z" agent="5.0 (X11)" version="13.3.3" etag="X2JI40wbYOwnv5F-N6Zj" type="github"><diagram id="qIQB0SJB6tXVv6hLpqs5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-24T17:32:23.789Z" agent="5.0 (X11)" etag="_tnkAGdnYFcLDeBm2U8U" version="13.3.3" type="github">
+  <diagram id="qIQB0SJB6tXVv6hLpqs5" name="Page-1">
+    <mxGraphModel dx="1422" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K19_MXLrQUyKNdt7Gp6J-4" value="&lt;div&gt;users&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="110" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="K19_MXLrQUyKNdt7Gp6J-1" value="Serveur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="K19_MXLrQUyKNdt7Gp6J-14" value="&lt;div&gt;Envoie une requête&lt;/div&gt;&lt;div&gt;de connexion&lt;/div&gt;&lt;div&gt;http au serveur&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.45;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K19_MXLrQUyKNdt7Gp6J-2" target="K19_MXLrQUyKNdt7Gp6J-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="328" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K19_MXLrQUyKNdt7Gp6J-2" value="Bot Discord" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K19_MXLrQUyKNdt7Gp6J-19" value="&lt;div&gt;requête une &lt;br&gt;&lt;/div&gt;&lt;div&gt;page de login&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K19_MXLrQUyKNdt7Gp6J-3" target="K19_MXLrQUyKNdt7Gp6J-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="270" />
+              <mxPoint x="270" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K19_MXLrQUyKNdt7Gp6J-3" value="Utilisateur" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K19_MXLrQUyKNdt7Gp6J-6" value="&lt;div&gt;Serveur&lt;/div&gt;&lt;div&gt;Discord&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="50" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="K19_MXLrQUyKNdt7Gp6J-7" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;labelBackgroundColor=#ffffff;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="90" width="40" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="K19_MXLrQUyKNdt7Gp6J-8" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;labelBackgroundColor=#ffffff;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="90" width="40" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="K19_MXLrQUyKNdt7Gp6J-15" value="&lt;div&gt;Requête une autorisation screen&lt;/div&gt;&lt;div&gt;de connexion&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="310" as="sourcePoint" />
+            <mxPoint x="619.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K19_MXLrQUyKNdt7Gp6J-16" value="Envoie acces token response" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="350" as="sourcePoint" />
+            <mxPoint x="329.5" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K19_MXLrQUyKNdt7Gp6J-18" value="&lt;div&gt;Enregistre le token&lt;/div&gt;&lt;div&gt;dans la BDD&lt;/div&gt;&lt;div&gt;/!\ Penser à chiffrer&lt;/div&gt;&lt;div&gt;à un moment&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K19_MXLrQUyKNdt7Gp6J-21" value="&lt;div&gt;Demande à récupérer &lt;br&gt;&lt;/div&gt;&lt;div&gt;la liste des guildes&lt;/div&gt;" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="470" as="sourcePoint" />
+            <mxPoint x="619.5" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K19_MXLrQUyKNdt7Gp6J-22" value="Envoie la liste des guildes" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620.5" y="500" as="sourcePoint" />
+            <mxPoint x="330" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540.5" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K19_MXLrQUyKNdt7Gp6J-23" value="&lt;div&gt;Enregistre la&lt;/div&gt;&lt;div&gt;liste des guildes&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="525" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
